@@ -10,6 +10,7 @@
                 <a class="nav-link @if(request()->is('home')) active @endif" aria-current="page" href="/home">Home</a>
                 <a class="nav-link @if(request()->is('drink/all')) active @endif" href="/drink/all">Drink</a>
                 <a class="nav-link @if(request()->is('food/all')) active @endif" href="/food/all">Food</a>
+                <a class="nav-link @if(request()->is('snack/all')) active @endif" href="/snack/all">Snack</a>
             </div>
         </div>
     </div>

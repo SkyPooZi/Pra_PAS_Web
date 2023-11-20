@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DrinkController;
 use App\Http\Controllers\FoodController;
+use App\Http\Controllers\SnackController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,3 +33,7 @@ Route::get('/drink/detail{drink}', [DrinkController::class,'show']);
 Route::get('/food/all', [FoodController::class,'index']);
 
 Route::get('/food/detail{food}', [FoodController::class,'show']);
+
+Route::get('/snack/all', [SnackController::class,'index']);
+
+Route::get('/snack/detail{snack}', [SnackController::class,'show']);
